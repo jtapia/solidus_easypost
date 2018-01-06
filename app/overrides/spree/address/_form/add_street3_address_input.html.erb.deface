@@ -1,0 +1,5 @@
+<!-- insert_after "erb[loud]:contains('address2')" -->
+
+<p class="field" id=<%="#{address_id}address3" %> hidden="true">
+  <%= form.text_field :address3, autocomplete: address_type + ' address-line3', placeholder: true %>
+</p>
